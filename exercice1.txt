@@ -1,2 +1,30 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous:
+git add Cheval.cs
+git commit -m "Ajouter la class cheval"
+git push
 
+git add Animal.cs
+git commit -m "Ajouter la class Animal.cs"
+git push
+
+git add Voiture.cs
+git commit -m "Ajouter la class Voiture.cs"
+git push
+
+git log
+git revert 208386abc12705f6c2824fb3138c72ea1d65a14e
+
+git checkout -b dev
+git push -u origin dev
+
+git add Cheval.cs
+git commit -m "MAJ de la class Cheval.cs"
+git push 
+
+git add Animal.cs
+git commit -m "MAJ de la class Animal.cs"
+git push
+
+git checkout main
+git merge dev
+git branch -d dev
